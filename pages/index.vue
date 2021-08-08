@@ -1,7 +1,9 @@
 <template>
-  <Tutorial/>
+  <client-only>
+    <LazyWrapper />
+  </client-only>
 </template>
 
 <script>
-export default {}
+export default {};
 </script>
